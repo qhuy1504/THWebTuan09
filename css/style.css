@@ -463,7 +463,7 @@ input {
   height: 50px;
   border-radius: 7px 0 0 7px;
   background-color: #1d2128;
-  border: 2px solid #bdc0c6;
+  border: 2px solid white;
   font-size: 20px;
   color: #bdc0c6;
   outline: none;
