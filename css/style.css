@@ -2,9 +2,64 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Boostrap 5  */
+.dropdown {
+  position: absolute;
+  right: 10%;
+}
+
+.g-col-4 {
+  margin-left: 20px;
+  padding: 10px 0;
+  width: 300px;
+  height: 500px;
+}
+.btn-group button {
+  padding: 0 32px;
+}
+.text-banner {
+  position: absolute;
+  top: 24%;
+  left: 6%;
+}
+.bibi-search {
+  position: absolute;
+  top: 24%;
+  left: 2%;
+}
+.icon-right {
+  position: absolute;
+  right: 50px;
+  top: 8px;
+}
+.col-auto2 {
+  position: relative;
+  left: 100px;
+}
+.col-auto2 input {
+  width: 300px;
+  height: 50px;
+}
+.bibi-search-2 {
+  position: absolute;
+  top: 32%;
+  left: 3%;
+}
+.pagination {
+  justify-content: center;
+  align-items: center;
+}
+.icon-user:hover,
+.icon-cart:hover {
+  opacity: 0.5;
+}
+/* End Boostrap 5 */
+
 #menu-container {
+  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -223,27 +278,28 @@ input {
 .body {
   padding: 20px;
 }
-
-.cards {
+.card {
+  border-radius: 7px;
+  overflow: hidden;
+  width: calc(25%-35px);
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
+/* .cards {
   margin-top: 50px;
-  /* display: flex; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column-gap: 20px;
   padding: 0 50px;
 }
 
-.card {
-  border-radius: 7px;
-  overflow: hidden;
-  width: calc(25%-35px);
-}
 
-.card-image {
+
+/* .card-image {
   height: 400px;
   width: 100%;
   object-fit: cover;
-}
+} */
 
 .card-content .card-title {
   margin-top: 23px;
@@ -472,8 +528,8 @@ input {
 
 .icon-email {
   position: absolute;
-  top: 46.5%;
-  right: 525px;
+  top: 47%;
+  right: 40%;
   font-size: 22px;
   opacity: 0.7;
 }
@@ -481,10 +537,13 @@ input {
 .btn-sub span {
   position: absolute;
   background-color: #01875f;
-  padding: 15px 32px;
-  right: 11%;
-  bottom: 44%;
+  padding: 12px 30px;
+  right: 14%;
+  bottom: 44.2%;
   border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .social {
@@ -497,9 +556,9 @@ input {
 }
 
 .overight {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 35px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  margin-top: 100px;
   font-family: Arial, Helvetica, sans-serif;
   opacity: 0.7;
   font-size: 15px;
